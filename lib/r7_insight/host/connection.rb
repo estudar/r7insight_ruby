@@ -149,7 +149,7 @@ module R7Insight
       end
 
       def check_async_thread
-        @thread = Thread.new { run } unless @thread&.alive?
+        @thread = Thread.new { run } unless @thread.try(:alive?)
       end
 
       def close
