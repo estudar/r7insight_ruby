@@ -57,3 +57,6 @@ build-iPhoneSimulator/
 
 # ruby plugins
 .rakeTasks
+
+# ruby-version
+.ruby-version
